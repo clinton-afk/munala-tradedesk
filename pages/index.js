@@ -15,4 +15,13 @@ export default function Home() {
       </div>
     </div>
   );
+// pages/index.js
+export default function Home() {
+  return (
+    <div style={{ fontFamily: 'Inter, system-ui', padding: 40 }}>
+      <h1>Munala Trade Desk — Test Page</h1>
+      <p>If you see this page, the root route works.</p>
+    </div>
+  );
 }
+
